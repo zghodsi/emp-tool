@@ -5,10 +5,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include <xmmintrin.h>
-#include <emmintrin.h>
-#include <smmintrin.h>
-#include <wmmintrin.h>
+#include <mmintrin.h>
 #include <assert.h>
 
 namespace emp {
