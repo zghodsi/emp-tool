@@ -1,7 +1,7 @@
 #ifndef HASH_IO_CHANNEL_H__
 #define HASH_IO_CHANNEL_H__
-#include "emp-tool/utils/hash.h"
-#include "emp-tool/io/net_io_channel.h"
+#include "emp-tool-tg/emp-tool/utils/hash.h"
+#include "emp-tool-tg/emp-tool/io/net_io_channel.h"
 /** @addtogroup IO
     @{
   */

@@ -1,10 +1,10 @@
 #ifndef CIRCUIT_FILE
 #define CIRCUIT_FILE
 
-#include "emp-tool/execution/circuit_execution.h"
-#include "emp-tool/execution/protocol_execution.h"
-#include "emp-tool/utils/block.h"
-#include "emp-tool/circuits/bit.h"
+#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/execution/protocol_execution.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/circuits/bit.h"
 #include <stdio.h>
 
 #define MAX_CKT_PARAM 1048576 //2^20

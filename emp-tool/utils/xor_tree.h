@@ -1,6 +1,6 @@
 #ifndef XORTREE_H__
 #define XORTREE_H__
-#include "emp-tool/circuits/bit.h"
+#include "emp-tool-tg/emp-tool/circuits/bit.h"
 /** @addtogroup BP
     @{
   */

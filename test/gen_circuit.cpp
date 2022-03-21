@@ -1,4 +1,4 @@
-#include "emp-tool/emp-tool.h"
+#include "emp-tool-tg/emp-tool/emp-tool.h"
 using namespace emp;
 void ham(int n) {
 	Integer a(n, 0, ALICE);

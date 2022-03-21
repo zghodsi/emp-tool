@@ -1,6 +1,6 @@
 #include <string>
-#include "emp-tool/io/io_channel.h"
-#include "emp-tool/io/file_io_channel.h"
+#include "emp-tool-tg/emp-tool/io/io_channel.h"
+#include "emp-tool-tg/emp-tool/io/file_io_channel.h"
 
 #ifndef MEM_IO_CHANNEL
 #define MEM_IO_CHANNEL

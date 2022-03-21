@@ -1,13 +1,13 @@
 #ifndef PRIVACY_FREE_GEN_H__
 #define PRIVACY_FREE_GEN_H__
-#include "emp-tool/io/io_channel.h"
-#include "emp-tool/io/net_io_channel.h"
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/utils.h"
-#include "emp-tool/utils/prp.h"
-#include "emp-tool/utils/hash.h"
-#include "emp-tool/execution/circuit_execution.h"
-#include "emp-tool/garble/garble_gate_privacy_free.h"
+#include "emp-tool-tg/emp-tool/io/io_channel.h"
+#include "emp-tool-tg/emp-tool/io/net_io_channel.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/utils.h"
+#include "emp-tool-tg/emp-tool/utils/prp.h"
+#include "emp-tool-tg/emp-tool/utils/hash.h"
+#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/garble/garble_gate_privacy_free.h"
 #include <iostream>
 namespace emp {
 template<typename T>

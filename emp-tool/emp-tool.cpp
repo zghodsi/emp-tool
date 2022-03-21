@@ -1,5 +1,5 @@
-#include "emp-tool/execution/circuit_execution.h"
-#include "emp-tool/execution/protocol_execution.h"
+#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/execution/protocol_execution.h"
 
 #ifndef THREADING
 emp::ProtocolExecution* emp::ProtocolExecution::prot_exec = nullptr;

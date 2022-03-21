@@ -1,10 +1,10 @@
 #ifndef FLOAT32_H__
 #define FLOAT32_H__
 
-#include "emp-tool/circuits/bit.h"
-#include "emp-tool/circuits/integer.h"
-#include "emp-tool/circuits/swappable.h"
-#include "emp-tool/circuits/number.h"
+#include "emp-tool-tg/emp-tool/circuits/bit.h"
+#include "emp-tool-tg/emp-tool/circuits/integer.h"
+#include "emp-tool-tg/emp-tool/circuits/swappable.h"
+#include "emp-tool-tg/emp-tool/circuits/number.h"
 #include <math.h>
 #include <array>
 
@@ -63,6 +63,6 @@ class Float32: Swappable<Float32> { public:
 	size_t size() const {return 32;};
 };
 
-#include "emp-tool/circuits/float32_circuit.hpp"
+#include "emp-tool-tg/emp-tool/circuits/float32_circuit.hpp"
 }
 #endif// DOUBLE_H__

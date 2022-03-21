@@ -1,8 +1,8 @@
 #ifndef BATCHER_H__
 #define BATCHER_H__
 #include <vector>
-//#include "emp-tool/execution/circuit_execution.h"
-#include "emp-tool/execution/protocol_execution.h"
+//#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/execution/protocol_execution.h"
 using std::vector;
 
 namespace emp {

@@ -1,4 +1,4 @@
-#include "emp-tool/emp-tool.h"
+#include "emp-tool-tg/emp-tool/emp-tool.h"
 #include <iostream>
 #include <openssl/ec.h>
 #include <openssl/bn.h>

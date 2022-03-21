@@ -11,7 +11,7 @@
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <string>
-#include "emp-tool/io/io_channel.h"
+#include "emp-tool-tg/emp-tool/io/io_channel.h"
 
 /** @addtogroup IO
     @{

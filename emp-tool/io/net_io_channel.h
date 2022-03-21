@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <string>
-#include "emp-tool/io/io_channel.h"
+#include "emp-tool-tg/emp-tool/io/io_channel.h"
 using std::string;
 
 #ifdef UNIX_PLATFORM

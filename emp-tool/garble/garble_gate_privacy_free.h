@@ -1,12 +1,12 @@
 #ifndef LIBGARBLE_GARBLE_GATE_PRIVACY_FREE_H
 #define LIBGARBLE_GARBLE_GATE_PRIVACY_FREE_H
 
-#include "emp-tool/garble/aes.h"
+#include "emp-tool-tg/emp-tool/garble/aes.h"
 #include <assert.h>
 #include <string.h>
 namespace emp {
 static inline void garble_gate_eval_privacy_free(block A, block B,
-		block *out, const block *table, uint64_t idx, const AES_KEY *key) {
+		block *out, const block *table, uint64_t idx, const EMP_AES_KEY *key) {
 	block HA, W;
 	bool sa;
 	block tweak;
@@ -37,7 +37,7 @@ static inline void garble_gate_eval_privacy_free(block A, block B,
 
 static inline void garble_gate_garble_privacy_free(block LA0, block A1,
 		block LB0, block B1, block *out0, block *out1, block delta, block *table, 
-		uint64_t idx, const AES_KEY *key) {
+		uint64_t idx, const EMP_AES_KEY *key) {
 #ifdef DEBUG
 	if ((*((char *) &LA0) & 0x01) == 1
 			|| (*((char *) &LB0) & 0x01) == 1

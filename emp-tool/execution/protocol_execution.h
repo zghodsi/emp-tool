@@ -1,8 +1,8 @@
 #ifndef PROTOCOL_EXECUTION_H__
 #define PROTOCOL_EXECUTION_H__
 #include <pthread.h>  
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/constants.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/constants.h"
 
 namespace emp {
 class ProtocolExecution { 

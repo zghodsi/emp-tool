@@ -26,6 +26,6 @@ emp-tool/emp-tool.cpp
 
 add_library(${NAME} SHARED ${sources})
 
-install(DIRECTORY emp-tool DESTINATION include/)
-install(DIRECTORY cmake/ DESTINATION cmake/)
-install(TARGETS ${NAME} DESTINATION lib)
+install(DIRECTORY emp-tool DESTINATION include/emp-tool-tg/)
+install(DIRECTORY cmake/ DESTINATION cmake/emp-tool-tg/)
+install(TARGETS ${NAME} DESTINATION lib/emp-tool-tg)

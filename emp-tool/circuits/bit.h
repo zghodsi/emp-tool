@@ -1,10 +1,10 @@
 #ifndef BIT_H__
 #define BIT_H__
-#include "emp-tool/execution/circuit_execution.h"
-#include "emp-tool/execution/protocol_execution.h"
-#include "emp-tool/utils/utils.h"
-#include "emp-tool/utils/block.h"
-#include "emp-tool/circuits/swappable.h"
+#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/execution/protocol_execution.h"
+#include "emp-tool-tg/emp-tool/utils/utils.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/circuits/swappable.h"
 
 namespace emp {
 class Bit : public Swappable<Bit>{ public:
@@ -42,6 +42,6 @@ class Bit : public Swappable<Bit>{ public:
 		memcpy(&bit, a, sizeof(block));
 	}
 };
-#include "emp-tool/circuits/bit.hpp"
+#include "emp-tool-tg/emp-tool/circuits/bit.hpp"
 }
 #endif

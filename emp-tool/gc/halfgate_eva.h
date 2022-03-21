@@ -1,12 +1,12 @@
 #ifndef HALFGATE_EVA_H__
 #define HALFGATE_EVA_H__
-#include "emp-tool/io/net_io_channel.h"
-#include "emp-tool/io/file_io_channel.h"
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/utils.h"
-#include "emp-tool/utils/prp.h"
-#include "emp-tool/execution/circuit_execution.h"
-#include "emp-tool/garble/garble_gate_halfgates.h"
+#include "emp-tool-tg/emp-tool/io/net_io_channel.h"
+#include "emp-tool-tg/emp-tool/io/file_io_channel.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/utils.h"
+#include "emp-tool-tg/emp-tool/utils/prp.h"
+#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/garble/garble_gate_halfgates.h"
 #include <iostream>
 namespace emp {
 template<typename T, RTCktOpt rt = on>

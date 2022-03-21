@@ -1,7 +1,7 @@
 
 #ifndef ABANDON_IO_CHANNEL
 #define ABANDON_IO_CHANNEL
-#include "emp-tool/io/io_channel.h"
+#include "emp-tool-tg/emp-tool/io/io_channel.h"
 
 /** @addtogroup IO
   @{

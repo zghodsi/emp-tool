@@ -1,6 +1,6 @@
 #ifndef NUMBER_H__
 #define NUMBER_H__
-#include "emp-tool/circuits/bit.h"
+#include "emp-tool-tg/emp-tool/circuits/bit.h"
 
 namespace emp {
 template<typename T, typename D>

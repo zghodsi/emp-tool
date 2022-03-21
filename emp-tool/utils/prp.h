@@ -1,6 +1,6 @@
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/constants.h"
-#include "emp-tool/garble/aes.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/constants.h"
+#include "emp-tool-tg/emp-tool/garble/aes.h"
 #include <stdio.h>
 #ifndef PRP_H__
 #define PRP_H__
@@ -10,7 +10,7 @@
 namespace emp {
 
 class PRP { public:
-	AES_KEY aes;
+	EMP_AES_KEY aes;
 
 	PRP(const char * seed = fix_key) {
 		aes_set_key(seed);

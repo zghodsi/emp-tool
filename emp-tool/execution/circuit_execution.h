@@ -1,7 +1,7 @@
 #ifndef CIRCUIT_EXECUTION_H__
 #define CIRCUIT_EXECUTION_H__
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/constants.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/constants.h"
 namespace emp {
 class CircuitExecution { 
 public:

@@ -2,7 +2,7 @@
 #define CHECK_IO_CHANNEL_H__
 #include <iostream>
 #include <string>
-#include "emp-tool/io/net_io_channel.h"
+#include "emp-tool-tg/emp-tool/io/net_io_channel.h"
 /** @addtogroup IO
     @{
   */

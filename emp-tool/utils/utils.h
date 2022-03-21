@@ -1,11 +1,11 @@
 #ifndef UTILS_H__
 #define UTILS_H__
 #include <string>
-#include "emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
 #include <sstream>
 #include <cstddef>//https://gcc.gnu.org/gcc-4.9/porting_to.html
 #include <gmp.h>
-#include "emp-tool/utils/prg.h"
+#include "emp-tool-tg/emp-tool/utils/prg.h"
 #include <chrono>
 #include <boost/format.hpp>
 #include <iostream>
@@ -78,6 +78,6 @@ void inline parse_party_and_port(char ** arg, int * party, int * port) {
 	parse_party_and_port(arg, 2, party, port);
 }
 
-#include "emp-tool/utils/utils.hpp"
+#include "emp-tool-tg/emp-tool/utils/utils.hpp"
 }
 #endif// UTILS_H__

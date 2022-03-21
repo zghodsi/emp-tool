@@ -1,8 +1,8 @@
 #ifndef IO_CHANNEL_H__
 #define IO_CHANNEL_H__
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/prg.h"
-#include "emp-tool/utils/group.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/prg.h"
+#include "emp-tool-tg/emp-tool/utils/group.h"
 
 /** @addtogroup IO
   @{

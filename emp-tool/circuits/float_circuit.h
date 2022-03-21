@@ -1,10 +1,10 @@
 #ifndef FLOAT_H__
 #define FLOAT_H__
 
-#include "emp-tool/circuits/bit.h"
-#include "emp-tool/circuits/integer.h"
-#include "emp-tool/circuits/swappable.h"
-#include "emp-tool/circuits/number.h"
+#include "emp-tool-tg/emp-tool/circuits/bit.h"
+#include "emp-tool-tg/emp-tool/circuits/integer.h"
+#include "emp-tool-tg/emp-tool/circuits/swappable.h"
+#include "emp-tool-tg/emp-tool/circuits/number.h"
 #include <math.h>
 namespace emp {
 class Float: Swappable<Float> { public:
@@ -53,6 +53,6 @@ class Float: Swappable<Float> { public:
 	Float operator^(const Float& rhs) const;
 };
 
-#include "emp-tool/circuits/float_circuit.hpp"
+#include "emp-tool-tg/emp-tool/circuits/float_circuit.hpp"
 }
 #endif// DOUBLE_H__

@@ -1,10 +1,10 @@
 #ifndef INTEGER_H__
 #define INTEGER_H__
 
-#include "emp-tool/circuits/bit.h"
-#include "emp-tool/circuits/number.h"
-#include "emp-tool/circuits/comparable.h"
-#include "emp-tool/circuits/swappable.h"
+#include "emp-tool-tg/emp-tool/circuits/bit.h"
+#include "emp-tool-tg/emp-tool/circuits/number.h"
+#include "emp-tool-tg/emp-tool/circuits/comparable.h"
+#include "emp-tool-tg/emp-tool/circuits/swappable.h"
 #include <vector>
 #include <bitset>
 #include <algorithm>
@@ -97,6 +97,6 @@ class Integer : public Swappable<Integer>, public Comparable<Integer> { public:
 };
 
 void init(Bit * bits, const bool* b, int length, int party = PUBLIC);
-#include "emp-tool/circuits/integer.hpp"
+#include "emp-tool-tg/emp-tool/circuits/integer.hpp"
 }
 #endif// INTEGER_H__

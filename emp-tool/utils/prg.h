@@ -1,8 +1,8 @@
 #ifndef PRG_H__
 #define PRG_H__
-#include "emp-tool/utils/block.h"
-#include "emp-tool/garble/aes.h"
-#include "emp-tool/utils/constants.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/garble/aes.h"
+#include "emp-tool-tg/emp-tool/utils/constants.h"
 #include <gmp.h>
 #include <random>
 
@@ -19,7 +19,7 @@ namespace emp {
 
 class PRG { public:
 	uint64_t counter = 0;
-	AES_KEY aes;
+	EMP_AES_KEY aes;
 	PRG(const void * seed = nullptr, int id = 0) {	
 		if (seed != nullptr) {
 			reseed(seed, id);

@@ -1,11 +1,11 @@
 #ifndef LIBGARBLE_GARBLE_GATE_HALFGATES_H
 #define LIBGARBLE_GARBLE_GATE_HALFGATES_H
 
-#include "emp-tool/garble/aes.h"
+#include "emp-tool-tg/emp-tool/garble/aes.h"
 #include <string.h>
 namespace emp {
 inline void garble_gate_eval_halfgates(block A, block B, 
-		block *out, const block *table, uint64_t idx, const AES_KEY *key) {
+		block *out, const block *table, uint64_t idx, const EMP_AES_KEY *key) {
 	block HA, HB, W;
 	int sa, sb;
 	block tweak1, tweak2;
@@ -39,7 +39,7 @@ inline void garble_gate_eval_halfgates(block A, block B,
 	*out = W;
 }
 
-inline void garble_gate_garble_halfgates(block LA0, block A1, block LB0, block B1, block *out0, block *out1, block delta, block *table, uint64_t idx, const AES_KEY *key) {
+inline void garble_gate_garble_halfgates(block LA0, block A1, block LB0, block B1, block *out0, block *out1, block delta, block *table, uint64_t idx, const EMP_AES_KEY *key) {
 	long pa = getLSB(LA0);
 	long pb = getLSB(LB0);
 	block tweak1, tweak2;

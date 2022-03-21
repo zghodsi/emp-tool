@@ -1,8 +1,8 @@
 #ifndef PLAIN_CIRC_EXEC_H__
 #define PLAIN_CIRC_EXEC_H__
-#include "emp-tool/utils/block.h"
-#include "emp-tool/utils/utils.h"
-#include "emp-tool/execution/circuit_execution.h"
+#include "emp-tool-tg/emp-tool/utils/block.h"
+#include "emp-tool-tg/emp-tool/utils/utils.h"
+#include "emp-tool-tg/emp-tool/execution/circuit_execution.h"
 #include <iostream>
 #include <fstream>
 
