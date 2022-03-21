@@ -16,7 +16,7 @@ include(cmake/threading.cmake)
 find_package(OpenSSL REQUIRED)
 find_package(GMP REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system)
-include_directories(${OPENSSL_INCLUDE_DIR} ${Boost_INCLUDE_DIRS} ${GMP_INCLUDE_DIR})
+include_directories(${OPENSSL_INCLUDE_DIR} ${Boost_INCLUDE_DIRS} ${GMP_INCLUDE_DIR} /)
 
 
 # Installation
